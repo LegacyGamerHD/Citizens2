@@ -65,7 +65,7 @@ public class EmptyChannel extends AbstractChannel {
 
     @Override
     public ChannelMetadata metadata() {
-        return null;
+        return false;
     }
 
     @Override
